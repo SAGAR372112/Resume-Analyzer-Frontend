@@ -1,0 +1,12 @@
+h1, h2, h3 {
+    color: #0f172a;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .stButton>button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
