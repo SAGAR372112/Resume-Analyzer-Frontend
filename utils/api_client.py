@@ -1,7 +1,6 @@
 import requests
-from decouple import config
 
-BASE_URL = config("BACKEND_URL")
+BASE_URL = st.secrets["BACKEND_URL"]
 
 def analyze_resume(file, job_description_id=None):
     files = {"resume": file}
